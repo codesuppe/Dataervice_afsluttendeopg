@@ -1,0 +1,51 @@
+@import "/src/scss/style.scss";
+@import "/src/scss/variables";
+
+.cap-first:first-letter {
+    text-transform: uppercase;
+}
+
+/* .img-container {
+    display: flex;
+    
+    justify-content: center;
+}
+
+.logo {
+    width: 30%;
+    object-fit: cover;
+} */
+.Services {
+    background-color: #6bb008;
+    border: none;
+}
+
+.AboutusEdit {
+    background-color: #6bb008;
+    color: black;
+    padding: 10vw;
+}
+
+
+.divider {
+    
+    border-top: 5px solid $viborggreen !important;
+    opacity: 1;
+}
+
+.divider1 {
+    border-top: 5px solid white !important;
+    opacity: 1;
+}
+
+.greener {
+    color: $viborggreen;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.active {
+    color: rgb(150, 149, 149) !important;
+}
